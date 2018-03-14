@@ -1,0 +1,915 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "stories/Contacto.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "",
+          "asA": "",
+          "iWantTo": "",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FORMATTING",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "registro en el contacto",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FORMATTING",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|nombre |email | numContacto | nombreEmpresa|ciudad |asunto |mensaje |\r\n|Aleja|aleja@hotmail|123|Qvision|Medellín|Prueba|Prueba",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FORMATTING",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "nombre",
+                "email",
+                "numContacto",
+                "nombreEmpresa",
+                "ciudad",
+                "asunto",
+                "mensaje"
+              ],
+              "data": [
+                [
+                  [
+                    "nombre",
+                    "Aleja"
+                  ],
+                  [
+                    "email",
+                    "aleja@hotmail"
+                  ],
+                  [
+                    "numContacto",
+                    "123"
+                  ],
+                  [
+                    "nombreEmpresa",
+                    "Qvision"
+                  ],
+                  [
+                    "ciudad",
+                    "Medellín"
+                  ],
+                  [
+                    "asunto",
+                    "Prueba"
+                  ],
+                  [
+                    "mensaje",
+                    "Prueba"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given que estoy en la pagina de qvision technologies",
+              "When me registre con nombre<nombre>, email<email>, numContacto<numContacto>, nombreEmpresa<nombreEmpresa>, ciudad<ciudad>, asunto<asunto>, mensaje<mensaje>",
+              "Then quedo registrado"
+            ]
+          }
+        ],
+        "name": "Contacto.story"
+      },
+      "localizedNarrative": "As a \nI want to \nSo that ",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "registro en el contacto",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FORMATTING",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|nombre |email | numContacto | nombreEmpresa|ciudad |asunto |mensaje |\r\n|Aleja|aleja@hotmail|123|Qvision|Medellín|Prueba|Prueba",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FORMATTING",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "nombre",
+                "email",
+                "numContacto",
+                "nombreEmpresa",
+                "ciudad",
+                "asunto",
+                "mensaje"
+              ],
+              "data": [
+                [
+                  [
+                    "nombre",
+                    "Aleja"
+                  ],
+                  [
+                    "email",
+                    "aleja@hotmail"
+                  ],
+                  [
+                    "numContacto",
+                    "123"
+                  ],
+                  [
+                    "nombreEmpresa",
+                    "Qvision"
+                  ],
+                  [
+                    "ciudad",
+                    "Medellín"
+                  ],
+                  [
+                    "asunto",
+                    "Prueba"
+                  ],
+                  [
+                    "mensaje",
+                    "Prueba"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given que estoy en la pagina de qvision technologies",
+              "When me registre con nombre<nombre>, email<email>, numContacto<numContacto>, nombreEmpresa<nombreEmpresa>, ciudad<ciudad>, asunto<asunto>, mensaje<mensaje>",
+              "Then quedo registrado"
+            ]
+          },
+          "storyPath": "stories/Contacto.story",
+          "allowed": true,
+          "examplePerformableScenarios": [
+            {
+              "parameters": [
+                [
+                  "nombre",
+                  "Aleja"
+                ],
+                [
+                  "email",
+                  "aleja@hotmail"
+                ],
+                [
+                  "numContacto",
+                  "123"
+                ],
+                [
+                  "nombreEmpresa",
+                  "Qvision"
+                ],
+                [
+                  "ciudad",
+                  "Medellín"
+                ],
+                [
+                  "asunto",
+                  "Prueba"
+                ],
+                [
+                  "mensaje",
+                  "Prueba"
+                ]
+              ],
+              "givenStories": [],
+              "beforeSteps": {
+                "matches": []
+              },
+              "steps": {
+                "matches": [],
+                "results": [
+                  {
+                    "step": "Given que estoy en la pagina de qvision technologies",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "Given que estoy en la pagina de qvision technologies",
+                    "durationInMillis": 7451
+                  },
+                  {
+                    "step": "When me registre con nombre<nombre>, email<email>, numContacto<numContacto>, nombreEmpresa<nombreEmpresa>, ciudad<ciudad>, asunto<asunto>, mensaje<mensaje>",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "When me registre con nombre｟Aleja｠, email｟aleja@hotmail｠, numContacto｟123｠, nombreEmpresa｟Qvision｠, ciudad｟Medellín｠, asunto｟Prueba｠, mensaje｟Prueba｠",
+                    "durationInMillis": 12512
+                  },
+                  {
+                    "step": "Then quedo registrado",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "Then quedo registrado",
+                    "durationInMillis": 682
+                  }
+                ]
+              },
+              "afterSteps": {
+                "matches": []
+              },
+              "storyAndScenarioMeta": {
+                "properties": []
+              },
+              "scenario": {
+                "title": "registro en el contacto",
+                "meta": {
+                  "properties": []
+                },
+                "givenStories": {
+                  "givenStories": [],
+                  "givenStoriesAsString": "",
+                  "examplesTable": {
+                    "tableAsString": "",
+                    "headerSeparator": "|",
+                    "valueSeparator": "|",
+                    "ignorableSeparator": "|--",
+                    "tableTransformers": {
+                      "transformers": [
+                        [
+                          "FROM_LANDSCAPE",
+                          {}
+                        ],
+                        [
+                          "REPLACING",
+                          {}
+                        ],
+                        [
+                          "FORMATTING",
+                          {}
+                        ]
+                      ]
+                    },
+                    "headers": [],
+                    "data": [],
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ],
+                    "propertiesAsString": "",
+                    "namedParameters": [],
+                    "trim": true
+                  }
+                },
+                "examplesTable": {
+                  "tableAsString": "|nombre |email | numContacto | nombreEmpresa|ciudad |asunto |mensaje |\r\n|Aleja|aleja@hotmail|123|Qvision|Medellín|Prueba|Prueba",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FORMATTING",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [
+                    "nombre",
+                    "email",
+                    "numContacto",
+                    "nombreEmpresa",
+                    "ciudad",
+                    "asunto",
+                    "mensaje"
+                  ],
+                  "data": [
+                    [
+                      [
+                        "nombre",
+                        "Aleja"
+                      ],
+                      [
+                        "email",
+                        "aleja@hotmail"
+                      ],
+                      [
+                        "numContacto",
+                        "123"
+                      ],
+                      [
+                        "nombreEmpresa",
+                        "Qvision"
+                      ],
+                      [
+                        "ciudad",
+                        "Medellín"
+                      ],
+                      [
+                        "asunto",
+                        "Prueba"
+                      ],
+                      [
+                        "mensaje",
+                        "Prueba"
+                      ]
+                    ]
+                  ],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                },
+                "steps": [
+                  "Given que estoy en la pagina de qvision technologies",
+                  "When me registre con nombre<nombre>, email<email>, numContacto<numContacto>, nombreEmpresa<nombreEmpresa>, ciudad<ciudad>, asunto<asunto>, mensaje<mensaje>",
+                  "Then quedo registrado"
+                ]
+              }
+            }
+          ],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 22727
+      },
+      "givenStory": false
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "title": "registro en el contacto",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FORMATTING",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "|nombre |email | numContacto | nombreEmpresa|ciudad |asunto |mensaje |\r\n|Aleja|aleja@hotmail|123|Qvision|Medellín|Prueba|Prueba",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FORMATTING",
+                {}
+              ]
+            ]
+          },
+          "headers": [
+            "nombre",
+            "email",
+            "numContacto",
+            "nombreEmpresa",
+            "ciudad",
+            "asunto",
+            "mensaje"
+          ],
+          "data": [
+            [
+              [
+                "nombre",
+                "Aleja"
+              ],
+              [
+                "email",
+                "aleja@hotmail"
+              ],
+              [
+                "numContacto",
+                "123"
+              ],
+              [
+                "nombreEmpresa",
+                "Qvision"
+              ],
+              [
+                "ciudad",
+                "Medellín"
+              ],
+              [
+                "asunto",
+                "Prueba"
+              ],
+              [
+                "mensaje",
+                "Prueba"
+              ]
+            ]
+          ],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given que estoy en la pagina de qvision technologies",
+          "When me registre con nombre<nombre>, email<email>, numContacto<numContacto>, nombreEmpresa<nombreEmpresa>, ciudad<ciudad>, asunto<asunto>, mensaje<mensaje>",
+          "Then quedo registrado"
+        ]
+      },
+      "storyPath": "stories/Contacto.story",
+      "allowed": true,
+      "examplePerformableScenarios": [
+        {
+          "parameters": [
+            [
+              "nombre",
+              "Aleja"
+            ],
+            [
+              "email",
+              "aleja@hotmail"
+            ],
+            [
+              "numContacto",
+              "123"
+            ],
+            [
+              "nombreEmpresa",
+              "Qvision"
+            ],
+            [
+              "ciudad",
+              "Medellín"
+            ],
+            [
+              "asunto",
+              "Prueba"
+            ],
+            [
+              "mensaje",
+              "Prueba"
+            ]
+          ],
+          "givenStories": [],
+          "beforeSteps": {
+            "matches": []
+          },
+          "steps": {
+            "matches": [],
+            "results": [
+              {
+                "step": "Given que estoy en la pagina de qvision technologies",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "Given que estoy en la pagina de qvision technologies",
+                "durationInMillis": 7451
+              },
+              {
+                "step": "When me registre con nombre<nombre>, email<email>, numContacto<numContacto>, nombreEmpresa<nombreEmpresa>, ciudad<ciudad>, asunto<asunto>, mensaje<mensaje>",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "When me registre con nombre｟Aleja｠, email｟aleja@hotmail｠, numContacto｟123｠, nombreEmpresa｟Qvision｠, ciudad｟Medellín｠, asunto｟Prueba｠, mensaje｟Prueba｠",
+                "durationInMillis": 12512
+              },
+              {
+                "step": "Then quedo registrado",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "Then quedo registrado",
+                "durationInMillis": 682
+              }
+            ]
+          },
+          "afterSteps": {
+            "matches": []
+          },
+          "storyAndScenarioMeta": {
+            "properties": []
+          },
+          "scenario": {
+            "title": "registro en el contacto",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FORMATTING",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|nombre |email | numContacto | nombreEmpresa|ciudad |asunto |mensaje |\r\n|Aleja|aleja@hotmail|123|Qvision|Medellín|Prueba|Prueba",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FORMATTING",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "nombre",
+                "email",
+                "numContacto",
+                "nombreEmpresa",
+                "ciudad",
+                "asunto",
+                "mensaje"
+              ],
+              "data": [
+                [
+                  [
+                    "nombre",
+                    "Aleja"
+                  ],
+                  [
+                    "email",
+                    "aleja@hotmail"
+                  ],
+                  [
+                    "numContacto",
+                    "123"
+                  ],
+                  [
+                    "nombreEmpresa",
+                    "Qvision"
+                  ],
+                  [
+                    "ciudad",
+                    "Medellín"
+                  ],
+                  [
+                    "asunto",
+                    "Prueba"
+                  ],
+                  [
+                    "mensaje",
+                    "Prueba"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given que estoy en la pagina de qvision technologies",
+              "When me registre con nombre<nombre>, email<email>, numContacto<numContacto>, nombreEmpresa<nombreEmpresa>, ciudad<ciudad>, asunto<asunto>, mensaje<mensaje>",
+              "Then quedo registrado"
+            ]
+          }
+        }
+      ],
+      "status": "SUCCESSFUL"
+    }
+  ]
+}}

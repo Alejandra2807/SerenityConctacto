@@ -1,0 +1,18 @@
+<story path="stories/Contacto.story" title="">
+<scenario keyword="Scenario:" title="registro en el contacto">
+<examples keyword="Examples:">
+<step>Given que estoy en la pagina de qvision technologies</step>
+<step>When me registre con nombre&lt;nombre&gt;, email&lt;email&gt;, numContacto&lt;numContacto&gt;, nombreEmpresa&lt;nombreEmpresa&gt;, ciudad&lt;ciudad&gt;, asunto&lt;asunto&gt;, mensaje&lt;mensaje&gt;</step>
+<step>Then quedo registrado</step>
+<parameters>
+<names><name>nombre</name><name>email</name><name>numContacto</name><name>nombreEmpresa</name><name>ciudad</name><name>asunto</name><name>mensaje</name></names>
+<values><value>Aleja</value><value>aleja@hotmail</value><value>123</value><value>Qvision</value><value>Medell&#237;n</value><value>Prueba</value><value>Prueba</value></values>
+</parameters>
+
+<example keyword="Example:">{nombre=Aleja, email=aleja@hotmail, numContacto=123, nombreEmpresa=Qvision, ciudad=Medell&#237;n, asunto=Prueba, mensaje=Prueba}</example>
+<step outcome="successful">Given que estoy en la pagina de qvision technologies</step>
+<step outcome="successful">When me registre con nombre<parameter>Aleja</parameter>, email<parameter>aleja@hotmail</parameter>, numContacto<parameter>123</parameter>, nombreEmpresa<parameter>Qvision</parameter>, ciudad<parameter>Medell&#237;n</parameter>, asunto<parameter>Prueba</parameter>, mensaje<parameter>Prueba</parameter></step>
+<step outcome="successful">Then quedo registrado</step>
+</examples>
+</scenario>
+</story>

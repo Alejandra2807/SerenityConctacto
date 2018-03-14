@@ -1,0 +1,823 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories/Contacto.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA></asA>
+          <iWantTo></iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>registro en el contacto</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|nombre |email | numContacto | nombreEmpresa|ciudad |asunto |mensaje |&#xd;
+|Aleja|aleja@hotmail|123|Qvision|Medellín|Prueba|Prueba</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>nombre</string>
+                <string>email</string>
+                <string>numContacto</string>
+                <string>nombreEmpresa</string>
+                <string>ciudad</string>
+                <string>asunto</string>
+                <string>mensaje</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>nombre</string>
+                    <string>Aleja</string>
+                  </entry>
+                  <entry>
+                    <string>email</string>
+                    <string>aleja@hotmail</string>
+                  </entry>
+                  <entry>
+                    <string>numContacto</string>
+                    <string>123</string>
+                  </entry>
+                  <entry>
+                    <string>nombreEmpresa</string>
+                    <string>Qvision</string>
+                  </entry>
+                  <entry>
+                    <string>ciudad</string>
+                    <string>Medellín</string>
+                  </entry>
+                  <entry>
+                    <string>asunto</string>
+                    <string>Prueba</string>
+                  </entry>
+                  <entry>
+                    <string>mensaje</string>
+                    <string>Prueba</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given que estoy en la pagina de qvision technologies</string>
+              <string>When me registre con nombre&lt;nombre&gt;, email&lt;email&gt;, numContacto&lt;numContacto&gt;, nombreEmpresa&lt;nombreEmpresa&gt;, ciudad&lt;ciudad&gt;, asunto&lt;asunto&gt;, mensaje&lt;mensaje&gt;</string>
+              <string>Then quedo registrado</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>Contacto.story</name>
+      </story>
+      <localizedNarrative>As a 
+I want to 
+So that </localizedNarrative>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>registro en el contacto</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|nombre |email | numContacto | nombreEmpresa|ciudad |asunto |mensaje |&#xd;
+|Aleja|aleja@hotmail|123|Qvision|Medellín|Prueba|Prueba</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>nombre</string>
+                <string>email</string>
+                <string>numContacto</string>
+                <string>nombreEmpresa</string>
+                <string>ciudad</string>
+                <string>asunto</string>
+                <string>mensaje</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>nombre</string>
+                    <string>Aleja</string>
+                  </entry>
+                  <entry>
+                    <string>email</string>
+                    <string>aleja@hotmail</string>
+                  </entry>
+                  <entry>
+                    <string>numContacto</string>
+                    <string>123</string>
+                  </entry>
+                  <entry>
+                    <string>nombreEmpresa</string>
+                    <string>Qvision</string>
+                  </entry>
+                  <entry>
+                    <string>ciudad</string>
+                    <string>Medellín</string>
+                  </entry>
+                  <entry>
+                    <string>asunto</string>
+                    <string>Prueba</string>
+                  </entry>
+                  <entry>
+                    <string>mensaje</string>
+                    <string>Prueba</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given que estoy en la pagina de qvision technologies</string>
+              <string>When me registre con nombre&lt;nombre&gt;, email&lt;email&gt;, numContacto&lt;numContacto&gt;, nombreEmpresa&lt;nombreEmpresa&gt;, ciudad&lt;ciudad&gt;, asunto&lt;asunto&gt;, mensaje&lt;mensaje&gt;</string>
+              <string>Then quedo registrado</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Contacto.story</storyPath>
+          <allowed>true</allowed>
+          <examplePerformableScenarios>
+            <examplePerformableScenario>
+              <parameters class="linked-hash-map">
+                <entry>
+                  <string>nombre</string>
+                  <string>Aleja</string>
+                </entry>
+                <entry>
+                  <string>email</string>
+                  <string>aleja@hotmail</string>
+                </entry>
+                <entry>
+                  <string>numContacto</string>
+                  <string>123</string>
+                </entry>
+                <entry>
+                  <string>nombreEmpresa</string>
+                  <string>Qvision</string>
+                </entry>
+                <entry>
+                  <string>ciudad</string>
+                  <string>Medellín</string>
+                </entry>
+                <entry>
+                  <string>asunto</string>
+                  <string>Prueba</string>
+                </entry>
+                <entry>
+                  <string>mensaje</string>
+                  <string>Prueba</string>
+                </entry>
+              </parameters>
+              <givenStories/>
+              <beforeSteps>
+                <matches/>
+              </beforeSteps>
+              <steps>
+                <matches/>
+                <results>
+                  <successful>
+                    <step>Given que estoy en la pagina de qvision technologies</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Given que estoy en la pagina de qvision technologies</parametrisedStep>
+                    <durationInMillis>7451</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>When me registre con nombre&lt;nombre&gt;, email&lt;email&gt;, numContacto&lt;numContacto&gt;, nombreEmpresa&lt;nombreEmpresa&gt;, ciudad&lt;ciudad&gt;, asunto&lt;asunto&gt;, mensaje&lt;mensaje&gt;</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>When me registre con nombre｟Aleja｠, email｟aleja@hotmail｠, numContacto｟123｠, nombreEmpresa｟Qvision｠, ciudad｟Medellín｠, asunto｟Prueba｠, mensaje｟Prueba｠</parametrisedStep>
+                    <durationInMillis>12512</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>Then quedo registrado</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Then quedo registrado</parametrisedStep>
+                    <durationInMillis>682</durationInMillis>
+                  </successful>
+                </results>
+              </steps>
+              <afterSteps>
+                <matches/>
+              </afterSteps>
+              <storyAndScenarioMeta>
+                <properties/>
+              </storyAndScenarioMeta>
+              <scenario>
+                <title>registro en el contacto</title>
+                <meta>
+                  <properties/>
+                </meta>
+                <givenStories>
+                  <givenStories/>
+                  <givenStoriesAsString></givenStoriesAsString>
+                  <examplesTable>
+                    <tableAsString></tableAsString>
+                    <headerSeparator>|</headerSeparator>
+                    <valueSeparator>|</valueSeparator>
+                    <ignorableSeparator>|--</ignorableSeparator>
+                    <tableTransformers>
+                      <transformers>
+                        <entry>
+                          <string>FROM_LANDSCAPE</string>
+                          <fromLandscape/>
+                        </entry>
+                        <entry>
+                          <string>REPLACING</string>
+                          <replacing/>
+                        </entry>
+                        <entry>
+                          <string>FORMATTING</string>
+                          <formatting/>
+                        </entry>
+                      </transformers>
+                    </tableTransformers>
+                    <headers/>
+                    <data/>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                    <propertiesAsString></propertiesAsString>
+                    <namedParameters/>
+                    <trim>true</trim>
+                  </examplesTable>
+                </givenStories>
+                <examplesTable>
+                  <tableAsString>|nombre |email | numContacto | nombreEmpresa|ciudad |asunto |mensaje |&#xd;
+|Aleja|aleja@hotmail|123|Qvision|Medellín|Prueba|Prueba</tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers>
+                    <string>nombre</string>
+                    <string>email</string>
+                    <string>numContacto</string>
+                    <string>nombreEmpresa</string>
+                    <string>ciudad</string>
+                    <string>asunto</string>
+                    <string>mensaje</string>
+                  </headers>
+                  <data>
+                    <linked-hash-map>
+                      <entry>
+                        <string>nombre</string>
+                        <string>Aleja</string>
+                      </entry>
+                      <entry>
+                        <string>email</string>
+                        <string>aleja@hotmail</string>
+                      </entry>
+                      <entry>
+                        <string>numContacto</string>
+                        <string>123</string>
+                      </entry>
+                      <entry>
+                        <string>nombreEmpresa</string>
+                        <string>Qvision</string>
+                      </entry>
+                      <entry>
+                        <string>ciudad</string>
+                        <string>Medellín</string>
+                      </entry>
+                      <entry>
+                        <string>asunto</string>
+                        <string>Prueba</string>
+                      </entry>
+                      <entry>
+                        <string>mensaje</string>
+                        <string>Prueba</string>
+                      </entry>
+                    </linked-hash-map>
+                  </data>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+                <steps>
+                  <string>Given que estoy en la pagina de qvision technologies</string>
+                  <string>When me registre con nombre&lt;nombre&gt;, email&lt;email&gt;, numContacto&lt;numContacto&gt;, nombreEmpresa&lt;nombreEmpresa&gt;, ciudad&lt;ciudad&gt;, asunto&lt;asunto&gt;, mensaje&lt;mensaje&gt;</string>
+                  <string>Then quedo registrado</string>
+                </steps>
+              </scenario>
+            </examplePerformableScenario>
+          </examplePerformableScenarios>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>22727</durationInMillis>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>registro en el contacto</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString>|nombre |email | numContacto | nombreEmpresa|ciudad |asunto |mensaje |&#xd;
+|Aleja|aleja@hotmail|123|Qvision|Medellín|Prueba|Prueba</tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers>
+            <string>nombre</string>
+            <string>email</string>
+            <string>numContacto</string>
+            <string>nombreEmpresa</string>
+            <string>ciudad</string>
+            <string>asunto</string>
+            <string>mensaje</string>
+          </headers>
+          <data>
+            <linked-hash-map>
+              <entry>
+                <string>nombre</string>
+                <string>Aleja</string>
+              </entry>
+              <entry>
+                <string>email</string>
+                <string>aleja@hotmail</string>
+              </entry>
+              <entry>
+                <string>numContacto</string>
+                <string>123</string>
+              </entry>
+              <entry>
+                <string>nombreEmpresa</string>
+                <string>Qvision</string>
+              </entry>
+              <entry>
+                <string>ciudad</string>
+                <string>Medellín</string>
+              </entry>
+              <entry>
+                <string>asunto</string>
+                <string>Prueba</string>
+              </entry>
+              <entry>
+                <string>mensaje</string>
+                <string>Prueba</string>
+              </entry>
+            </linked-hash-map>
+          </data>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given que estoy en la pagina de qvision technologies</string>
+          <string>When me registre con nombre&lt;nombre&gt;, email&lt;email&gt;, numContacto&lt;numContacto&gt;, nombreEmpresa&lt;nombreEmpresa&gt;, ciudad&lt;ciudad&gt;, asunto&lt;asunto&gt;, mensaje&lt;mensaje&gt;</string>
+          <string>Then quedo registrado</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Contacto.story</storyPath>
+      <allowed>true</allowed>
+      <examplePerformableScenarios>
+        <examplePerformableScenario>
+          <parameters class="linked-hash-map">
+            <entry>
+              <string>nombre</string>
+              <string>Aleja</string>
+            </entry>
+            <entry>
+              <string>email</string>
+              <string>aleja@hotmail</string>
+            </entry>
+            <entry>
+              <string>numContacto</string>
+              <string>123</string>
+            </entry>
+            <entry>
+              <string>nombreEmpresa</string>
+              <string>Qvision</string>
+            </entry>
+            <entry>
+              <string>ciudad</string>
+              <string>Medellín</string>
+            </entry>
+            <entry>
+              <string>asunto</string>
+              <string>Prueba</string>
+            </entry>
+            <entry>
+              <string>mensaje</string>
+              <string>Prueba</string>
+            </entry>
+          </parameters>
+          <givenStories/>
+          <beforeSteps>
+            <matches/>
+          </beforeSteps>
+          <steps>
+            <matches/>
+            <results>
+              <successful>
+                <step>Given que estoy en la pagina de qvision technologies</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Given que estoy en la pagina de qvision technologies</parametrisedStep>
+                <durationInMillis>7451</durationInMillis>
+              </successful>
+              <successful>
+                <step>When me registre con nombre&lt;nombre&gt;, email&lt;email&gt;, numContacto&lt;numContacto&gt;, nombreEmpresa&lt;nombreEmpresa&gt;, ciudad&lt;ciudad&gt;, asunto&lt;asunto&gt;, mensaje&lt;mensaje&gt;</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>When me registre con nombre｟Aleja｠, email｟aleja@hotmail｠, numContacto｟123｠, nombreEmpresa｟Qvision｠, ciudad｟Medellín｠, asunto｟Prueba｠, mensaje｟Prueba｠</parametrisedStep>
+                <durationInMillis>12512</durationInMillis>
+              </successful>
+              <successful>
+                <step>Then quedo registrado</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Then quedo registrado</parametrisedStep>
+                <durationInMillis>682</durationInMillis>
+              </successful>
+            </results>
+          </steps>
+          <afterSteps>
+            <matches/>
+          </afterSteps>
+          <storyAndScenarioMeta>
+            <properties/>
+          </storyAndScenarioMeta>
+          <scenario>
+            <title>registro en el contacto</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|nombre |email | numContacto | nombreEmpresa|ciudad |asunto |mensaje |&#xd;
+|Aleja|aleja@hotmail|123|Qvision|Medellín|Prueba|Prueba</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>nombre</string>
+                <string>email</string>
+                <string>numContacto</string>
+                <string>nombreEmpresa</string>
+                <string>ciudad</string>
+                <string>asunto</string>
+                <string>mensaje</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>nombre</string>
+                    <string>Aleja</string>
+                  </entry>
+                  <entry>
+                    <string>email</string>
+                    <string>aleja@hotmail</string>
+                  </entry>
+                  <entry>
+                    <string>numContacto</string>
+                    <string>123</string>
+                  </entry>
+                  <entry>
+                    <string>nombreEmpresa</string>
+                    <string>Qvision</string>
+                  </entry>
+                  <entry>
+                    <string>ciudad</string>
+                    <string>Medellín</string>
+                  </entry>
+                  <entry>
+                    <string>asunto</string>
+                    <string>Prueba</string>
+                  </entry>
+                  <entry>
+                    <string>mensaje</string>
+                    <string>Prueba</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given que estoy en la pagina de qvision technologies</string>
+              <string>When me registre con nombre&lt;nombre&gt;, email&lt;email&gt;, numContacto&lt;numContacto&gt;, nombreEmpresa&lt;nombreEmpresa&gt;, ciudad&lt;ciudad&gt;, asunto&lt;asunto&gt;, mensaje&lt;mensaje&gt;</string>
+              <string>Then quedo registrado</string>
+            </steps>
+          </scenario>
+        </examplePerformableScenario>
+      </examplePerformableScenarios>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+  </scenarios>
+</xref>

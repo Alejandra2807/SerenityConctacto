@@ -1,0 +1,70 @@
+<acceptance-test-run title="registro en el contacto" name="registro en el contacto" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22697" timestamp="2018-03-13T08:42:04.465-05:00" session-id="9c72efbe29d5f67138e5b88dc67eed17">
+  <user-story id="Contacto" name="Contacto" path="stories/Contacto.story"/>
+  <tags>
+    <tag name="Contacto" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>nombre</header>
+      <header>email</header>
+      <header>numContacto</header>
+      <header>nombreEmpresa</header>
+      <header>ciudad</header>
+      <header>asunto</header>
+      <header>mensaje</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>Aleja</value>
+        <value>aleja@hotmail</value>
+        <value>123</value>
+        <value>Qvision</value>
+        <value>Medellín</value>
+        <value>Prueba</value>
+        <value>Prueba</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {nombre=Aleja, email=aleja@hotmail, numContacto=123, nombreEmpresa=Qvision, ciudad=Medellín, asunto=Prueba, mensaje=Prueba}" result="SUCCESS">
+    <test-group name="Given que estoy en la pagina de qvision technologies" result="SUCCESS">
+      <screenshots>
+        <screenshot image="0b7e14ffeac946565f678fc4edb1c5e5.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="7304">
+        <screenshots>
+          <screenshot image="ca0825a4f2b060971eeb4e0f18befd1b.png"/>
+        </screenshots>
+        <description>Abrir pagina</description>
+      </test-step>
+    </test-group>
+    <test-group name="When me registre con nombre{Aleja}, email{aleja@hotmail}, numContacto{123}, nombreEmpresa{Qvision}, ciudad{Medellín}, asunto{Prueba}, mensaje{Prueba}" result="SUCCESS">
+      <screenshots>
+        <screenshot image="ce291564326bfbb3210b32de59570d6b.png"/>
+        <screenshot image="6e875c9da83310d8e26649b8d329847b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="12501">
+        <screenshots>
+          <screenshot image="ce291564326bfbb3210b32de59570d6b.png"/>
+          <screenshot image="88eb7b9d8c45528dc624ea79425f41ed.png"/>
+        </screenshots>
+        <description>Registro: Aleja, aleja@hotmail, 123, Qvision, Medellín, Prueba, Prueba</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then quedo registrado" result="SUCCESS">
+      <screenshots>
+        <screenshot image="29a39774044f047825c43c4abffbfa2c.png"/>
+        <screenshot image="53620691692f6b8f97e2e55c72cf9dd9.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="679">
+        <screenshots>
+          <screenshot image="23dea2f4554d8447b2d9d8a62a4c1e9d.png"/>
+          <screenshot image="53620691692f6b8f97e2e55c72cf9dd9.png"/>
+        </screenshots>
+        <description>Validar</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>
